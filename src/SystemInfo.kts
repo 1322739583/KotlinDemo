@@ -1,0 +1,5 @@
+println("-------------CPU信息------------")
+println("CPU型号：")
+println("CPU核心数: ${Runtime.getRuntime().availableProcessors()}")
+println("${Runtime.getRuntime().maxMemory()} bytes")
+println("${Runtime.getRuntime().totalMemory()} bytes")
