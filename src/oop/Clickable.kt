@@ -1,5 +1,7 @@
 package oop
 
+import strings.lastChar
+
 interface Clickable {
     fun click() {
         println("This is default impl")
